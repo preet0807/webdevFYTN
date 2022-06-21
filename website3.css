@@ -70,7 +70,7 @@ text-decoration: none;
     height:100vh;
 }
  .container{
-    background-image: url("/pics/background6.jpg");
+    background-image: url("pics/background6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
