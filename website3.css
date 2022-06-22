@@ -524,6 +524,60 @@ display: flex;
     padding: 30px;
     color: white;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .row6{
+    display: flex;
+    flex-direction: row;
+  }
+   
+  .card6 img{
+    height:50vh;
+    width:50vw;
+  }
+  .column6 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container7 {
+    padding: 0 16px;
+    height: 300px;
+  }
+  
+  .container7::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button6 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button6:hover {
+    background-color: #555;
+  }
+
 
 
 
